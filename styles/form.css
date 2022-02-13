@@ -1,0 +1,54 @@
+form {
+        font-family: monospace;
+        font-size: 16px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.selectors {
+    width: 50%;
+}
+.selectors > * {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1%;
+    margin-bottom: 32px;
+}
+
+.radio-with-label {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-right: 2%;
+}
+.radio-with-label:last-child {
+    padding-right: 0;
+}
+.x-selector, .y-selector, .r-selector {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+
+.selector-description {
+    padding-right: 20%;
+    align-self: center;
+}
+
+button {
+    width: 50%;
+}
+
+button:active {
+    background-color: white;
+}
+
+.task-image {
+    width: 190px;
+    height: 190px;
+    margin-right: 10%;
+}

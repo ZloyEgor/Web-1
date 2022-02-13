@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab № 1</title>
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/form.css">
+    <link rel="stylesheet" href="/styles/table.css">
+    <script src="js/jquery-3.6.0.js"></script>
+</head>
+<body>
+<header>
+    <div class="header_content">
+        <div>Стуков Егор Александрович</div>
+        <div>P3232</div>
+        <div>32900</div>
+    </div>
+</header>
+<article>
+    <form class="form" name="form" method="get">
+        <div class="selectors">
+            <div class="x-selector">
+                <label class="selector-description" for="x">Введите значение X:</label>
+                <input type="text" id="x" name="x_value">
+            </div>
+            <div class="y-selector">
+                <div class="selector-description">Выберите значение Y:</div>
+                <div class="radio-with-label">
+                    <input type="radio" id="-4_y" name="y_value" value="-4">
+                    <label for="-4_y">-4</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="-3_y" name="y_value" value="-3">
+                    <label for="-3_y">-3</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="-2_y" name="y_value" value="-2">
+                    <label for="-2_y">-2</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="-1_y" name="y_value" value="-1">
+                    <label for="-1_y">-1</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="0_y" name="y_value" value="0">
+                    <label for="0_y">0</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="1_y" name="y_value" value="1">
+                    <label for="1_y">1</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="2_y" name="y_value" value="2">
+                    <label for="2_y">2</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="3_y" name="y_value" value="3">
+                    <label for="3_y">3</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="4_y" name="y_value" value="4">
+                    <label for="4_y">4</label>
+                </div>
+            </div>
+            <div class="r-selector">
+                <div class="selector-description">Выберите значение параметра R:</div>
+                <div class="radio-with-label">
+                    <input type="radio" id="1_r" name="r_value" value="1">
+                    <label for="1_r">1</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="1.5_r" name="r_value" value="1.5">
+                    <label for="1.5_r">1.5</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="2_r" name="r_value" value="2">
+                    <label for="2_r">2</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="2.5_r" name="r_value" value="2.5">
+                    <label for="2.5_r">2.5</label>
+                </div>
+                <div class="radio-with-label">
+                    <input type="radio" id="3_r" name="r_value" value="3">
+                    <label for="3_r">3</label>
+                </div>
+            </div>
+            <button class="submit-button" type="submit">Проверить</button>
+        </div>
+        <img class="task-image" src="task.png" alt="Заданная область">
+    </form>
+    <table class="results" id="results">
+        <thead>
+        <tr>
+            <th>X</th>
+            <th>Y</th>
+            <th>R</th>
+            <th>Попадание</th>
+            <th>Время обращения</th>
+            <th>Время работы скрипта</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</article>
+<script src="js/validation.js"></script>
+</body>
+</html>
